@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Flog</title>
+  
+  <subtitle>F_ZZ&#39;s blog.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-05-23T12:40:54.024Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>F_ZZ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learning of Markdowm</title>
+    <link href="http://yoursite.com/2020/05/22/Markdown%20getting%20Start/"/>
+    <id>http://yoursite.com/2020/05/22/Markdown%20getting%20Start/</id>
+    <published>2020-05-22T15:38:14.000Z</published>
+    <updated>2020-05-23T12:40:54.024Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;What-is-MarkDown&quot;&gt;&lt;a href=&quot;#What-is-MarkDown&quot; class=&quot;headerlink&quot; title=&quot;What is MarkDown&quot;&gt;&lt;/a&gt;What is MarkDown&lt;/h3&gt;&lt;p&gt;Markdown is a lightweight “markup language”. The founder is John Gruber, which replaces typesetting with concise grammar. It is recently widely used by more and more knowledge works, writing enthusiasts, programmers or researchers. There are no more than ten commonly used markup symbols. Compared to the more complex HTML markup language, Markdown is very lightweight, and the learning cost does not need too much.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="study" scheme="http://yoursite.com/categories/study/"/>
+    
+    
+      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/03/24/hello-world/"/>
+    <id>http://yoursite.com/2020/03/24/hello-world/</id>
+    <published>2020-03-23T18:01:51.850Z</published>
+    <updated>2020-05-23T12:46:00.452Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
+    
+  </entry>
+  
+</feed>
