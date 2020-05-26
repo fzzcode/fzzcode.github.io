@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-23T12:40:54.024Z</updated>
+  <updated>2020-05-26T07:32:48.646Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/05/22/Markdown%20getting%20Start/"/>
     <id>http://yoursite.com/2020/05/22/Markdown%20getting%20Start/</id>
     <published>2020-05-22T15:38:14.000Z</published>
-    <updated>2020-05-23T12:40:54.024Z</updated>
+    <updated>2020-05-26T07:32:48.646Z</updated>
     
     <summary type="html">
     
@@ -33,9 +33,9 @@
       <category term="study" scheme="http://yoursite.com/categories/study/"/>
     
     
-      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
-    
       <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
     
   </entry>
   

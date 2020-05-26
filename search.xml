@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Learning of Markdowm</title>
+    <url>/2020/05/22/Markdown%20getting%20Start/</url>
+    <content><![CDATA[<h3 id="What-is-MarkDown"><a href="#What-is-MarkDown" class="headerlink" title="What is MarkDown"></a>What is MarkDown</h3><p>Markdown is a lightweight “markup language”. The founder is John Gruber, which replaces typesetting with concise grammar. It is recently widely used by more and more knowledge works, writing enthusiasts, programmers or researchers. There are no more than ten commonly used markup symbols. Compared to the more complex HTML markup language, Markdown is very lightweight, and the learning cost does not need too much.</p>
+<a id="more"></a>
+
+<h3 id="The-common-grammars-of-Markdown"><a href="#The-common-grammars-of-Markdown" class="headerlink" title="The common grammars of Markdown"></a>The common grammars of Markdown</h3><h4 id="Setting-Headings"><a href="#Setting-Headings" class="headerlink" title="Setting Headings"></a>Setting Headings</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># the level 1 Heading</span></span><br><span class="line"><span class="comment">## the level 2 Heading</span></span><br><span class="line"><span class="comment">### the level 3 Heading</span></span><br><span class="line"><span class="comment">#### the level 4 Heading</span></span><br><span class="line"><span class="comment">##### the level 5 Heading</span></span><br><span class="line"><span class="comment">##### the level 6 Heading</span></span><br></pre></td></tr></table></figure>
+<h4 id="Blod-text"><a href="#Blod-text" class="headerlink" title="Blod text"></a>Blod text</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**Bloding text**</span><br></pre></td></tr></table></figure>
+<p><strong>Bloding text</strong></p>
+<h4 id="Italic"><a href="#Italic" class="headerlink" title="Italic"></a>Italic</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">*Italic*</span><br></pre></td></tr></table></figure>
+<p><em>Italic</em></p>
+<h4 id="Underline"><a href="#Underline" class="headerlink" title="Underline"></a>Underline</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;Underline&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+<p><u>Underline</u></p>
+<h4 id="Strikethough"><a href="#Strikethough" class="headerlink" title="Strikethough"></a>Strikethough</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~~Strikthough~~</span><br></pre></td></tr></table></figure>
+<p><del>Strikethough</del></p>
+<h4 id="Adding-Divider"><a href="#Adding-Divider" class="headerlink" title="Adding Divider"></a>Adding Divider</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Adding Divider</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
+<p>Adding Divider</p>
+<hr>
+<h4 id="Quoted-text"><a href="#Quoted-text" class="headerlink" title="Quoted text"></a>Quoted text</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt;Quoted text</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>Quoted text</p>
+</blockquote>
+<h4 id="Add-symbol-list-or-number-list"><a href="#Add-symbol-list-or-number-list" class="headerlink" title="Add symbol list or number list"></a>Add symbol list or number list</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">* Add</span><br><span class="line">* symbol</span><br><span class="line">* list</span><br><span class="line"></span><br><span class="line">1. or</span><br><span class="line">2. number</span><br><span class="line">3. list</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Add</li>
+<li>symbol</li>
+<li>list</li>
+</ul>
+<ol>
+<li>or</li>
+<li>number</li>
+<li>list</li>
+</ol>
+<h4 id="Add-a-to-do-list"><a href="#Add-a-to-do-list" class="headerlink" title="Add a to-do list"></a>Add a to-do list</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">* [x] Add</span><br><span class="line">* [ ] a to-do list</span><br></pre></td></tr></table></figure>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Add</li>
+<li><input disabled="" type="checkbox"> a to-do list</li>
+</ul>
+<h4 id="Insert-link"><a href="#Insert-link" class="headerlink" title="Insert link"></a>Insert link</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[Fzz<span class="string">'s Blog](https://fzzcode.github.io/)</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://fzzcode.github.io" target="_blank" rel="noopener">Fzz’s Blog</a></p>
+<h4 id="Insert-image"><a href="#Insert-image" class="headerlink" title="Insert image"></a>Insert image</h4><h5 id="the-internet-image"><a href="#the-internet-image" class="headerlink" title="the internet image"></a>the internet image</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![image](https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png" alt="image"></p>
+<h5 id="the-local-image"><a href="#the-local-image" class="headerlink" title="the local image"></a>the local image</h5><p>you can control the size of local images bu the belowing grammars.</p>
+<ul>
+<li>@w=300</li>
+<li>@h=150</li>
+<li>@w=200h=100</li>
+<li>@h=100w=200</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">0feea425bebb33aa45691b125b74d55b.png@w=300</span><br></pre></td></tr></table></figure>
+<p><img src="en-resource://database/936:1" alt="0feea425bebb33aa45691b125b74d55b.png">@w=300</p>
+<h4 id="Insert-form"><a href="#Insert-form" class="headerlink" title="Insert form"></a>Insert form</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">|A|B|C|D|</span><br><span class="line">|---|---|---|---|</span><br><span class="line">|1000|100|10|1|</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1000</td>
+<td>100</td>
+<td>10</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h4 id="Insert-inline-code-or-code-block"><a href="#Insert-inline-code-or-code-block" class="headerlink" title="Insert inline code or code block"></a>Insert inline code or code block</h4><p>the example is the highlight of Python.</p>
+<h5 id="Insert-inline-code"><a href="#Insert-inline-code" class="headerlink" title="Insert inline code"></a>Insert inline code</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Insert inline ``pyhon <span class="built_in">print</span>(<span class="string">"hello world!"</span>)</span><br><span class="line">``code</span><br></pre></td></tr></table></figure>
+<p>Insert inline <code>pyhon print(&quot;hello world!&quot;)</code>code</p>
+<h5 id="Insert-code-block"><a href="#Insert-code-block" class="headerlink" title="Insert code block"></a>Insert code block</h5><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">line = <span class="string">"Cats are smarter than dogs"</span></span><br><span class="line">matchObj = re.match( <span class="string">r'(.*) are (.*?) .*'</span>, line, re.M|re.I)</span><br><span class="line"><span class="keyword">if</span> matchObj:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group() : "</span>, matchObj.group()</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group(1) : "</span>, matchObj.group(<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group(2) : "</span>, matchObj.group(<span class="number">2</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"No match!!"</span></span><br></pre></td></tr></table></figure>
+<h4 id="Insert-Math-formula"><a href="#Insert-Math-formula" class="headerlink" title="Insert Math formula"></a>Insert Math formula</h4><p>Markdown supports almost LaTeX math formulas</p>
+<p>inline: $e^{i\pi}+1=0$<br>outline:<br>$$e^{i\pi}+1=0$$</p>
+<p>for more math formulas you can refer to:<br><a href="https://khan.github.io/KaTeX/docs/supported.html" target="_blank" rel="noopener">https://khan.github.io/KaTeX/docs/supported.html</a></p>
+<h4 id="Insert-flow-chart"><a href="#Insert-flow-chart" class="headerlink" title="Insert flow chart"></a>Insert flow chart</h4><pre class="mermaid">graph TD
+A[module A] -->|A1|B(module B)
+B -->C{condition C}
+C -->|condition C1|D[module D]
+C -->|condition C2|E(module E)
+C -->|condition C3|F{condition G}</pre>
+<h4 id="Insert-sequence-Diagram"><a href="#Insert-sequence-Diagram" class="headerlink" title="Insert sequence Diagram"></a>Insert sequence Diagram</h4><pre class="mermaid">sequenceDiagram 
+A->B: Connect test 
+A->>B: Have you recieved the message? 
+B-->>A: Recieved message</pre>
+<h4 id="Insert-Gantt-chart"><a href="#Insert-Gantt-chart" class="headerlink" title="Insert Gantt chart"></a>Insert Gantt chart</h4><pre class="mermaid">gantt
+title Gantt Chart
+dateFormat YYY-MM-DD
+section ProjectA
+task1 :2020-05-23, 4d
+task2 :after task1,3d
+section ProjectB
+task3 :2020-05-24, 5d
+task4 :10d</pre>
+
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>this flog is translated from <a href="https://list.yinxiang.com/markdown/eef42447-db3f-48ee-827b-1bb34c03eb83.php" target="_blank" rel="noopener">印象笔记 Markdown 入门指南</a>, you can click this link for details.</p>
+]]></content>
+      <categories>
+        <category>study</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+        <tag>hello world</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/03/24/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -20,117 +125,6 @@
 ]]></content>
       <tags>
         <tag>hello world</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Learning of Markdowm</title>
-    <url>/2020/05/22/Markdown%20getting%20Start/</url>
-    <content><![CDATA[<h3 id="What-is-MarkDown"><a href="#What-is-MarkDown" class="headerlink" title="What is MarkDown"></a>What is MarkDown</h3><p>Markdown is a lightweight “markup language”. The founder is John Gruber, which replaces typesetting with concise grammar. It is recently widely used by more and more knowledge works, writing enthusiasts, programmers or researchers. There are no more than ten commonly used markup symbols. Compared to the more complex HTML markup language, Markdown is very lightweight, and the learning cost does not need too much.</p>
-<a id="more"></a>
-
-<h3 id="The-common-grammars-of-Markdown"><a href="#The-common-grammars-of-Markdown" class="headerlink" title="The common grammars of Markdown"></a>The common grammars of Markdown</h3><h4 id="1-Setting-Headings"><a href="#1-Setting-Headings" class="headerlink" title="1. Setting Headings"></a>1. Setting Headings</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># the level 1 Heading</span></span><br><span class="line"><span class="comment">## the level 2 Heading</span></span><br><span class="line"><span class="comment">### the level 3 Heading</span></span><br><span class="line"><span class="comment">#### the level 4 Heading</span></span><br><span class="line"><span class="comment">##### the level 5 Heading</span></span><br><span class="line"><span class="comment">##### the level 6 Heading</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="en-resource://database/938:1" alt="824e6fcd5a868dceb4f1ccd0af0f3a5a.png"></p>
-<h4 id="2-Blod-text"><a href="#2-Blod-text" class="headerlink" title="2. Blod text"></a>2. Blod text</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**Bloding text**</span><br></pre></td></tr></table></figure>
-<p><strong>Bloding text</strong></p>
-<h4 id="3-Italic"><a href="#3-Italic" class="headerlink" title="3. Italic"></a>3. Italic</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">*Italic*</span><br></pre></td></tr></table></figure>
-<p><em>Italic</em></p>
-<h4 id="4-Underline"><a href="#4-Underline" class="headerlink" title="4. Underline"></a>4. Underline</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;Underline&lt;/u&gt;</span><br></pre></td></tr></table></figure>
-<p><u>Underline</u></p>
-<h4 id="5-Strikethough"><a href="#5-Strikethough" class="headerlink" title="5. Strikethough"></a>5. Strikethough</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~~Strikthough~~</span><br></pre></td></tr></table></figure>
-<p><del>Strikethough</del></p>
-<h4 id="6-Adding-Divider"><a href="#6-Adding-Divider" class="headerlink" title="6. Adding Divider"></a>6. Adding Divider</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Adding Divider</span><br><span class="line">***</span><br></pre></td></tr></table></figure>
-<p>Adding Divider</p>
-<hr>
-<h4 id="7-Quoted-text"><a href="#7-Quoted-text" class="headerlink" title="7. Quoted text"></a>7. Quoted text</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt;Quoted text</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>Quoted text</p>
-</blockquote>
-<h4 id="8-Add-symbol-list-or-number-list"><a href="#8-Add-symbol-list-or-number-list" class="headerlink" title="8. Add symbol list or number list"></a>8. Add symbol list or number list</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">* Add</span><br><span class="line">* symbol</span><br><span class="line">* list</span><br><span class="line"></span><br><span class="line">1. or</span><br><span class="line">2. number</span><br><span class="line">3. list</span><br></pre></td></tr></table></figure>
-<ul>
-<li>Add</li>
-<li>symbol</li>
-<li>list</li>
-</ul>
-<ol>
-<li>or</li>
-<li>number</li>
-<li>list<h4 id="9-Add-a-to-do-list"><a href="#9-Add-a-to-do-list" class="headerlink" title="9. Add a to-do list"></a>9. Add a to-do list</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">* [x] Add</span><br><span class="line">* [ ] a to-do list</span><br></pre></td></tr></table></figure></li>
-</ol>
-<ul>
-<li><input checked="" disabled="" type="checkbox"> Add</li>
-<li><input disabled="" type="checkbox"> a to-do list<h4 id="10-Insert-link"><a href="#10-Insert-link" class="headerlink" title="10. Insert link"></a>10. Insert link</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[Fzz<span class="string">'s Blog](https://fzzcode.github.io/)</span></span><br></pre></td></tr></table></figure>
-<a href="https://fzzcode.github.io" target="_blank" rel="noopener">Fzz’s Blog</a></li>
-</ul>
-<h4 id="11-Insert-image"><a href="#11-Insert-image" class="headerlink" title="11. Insert image"></a>11. Insert image</h4><h5 id="the-internet-image"><a href="#the-internet-image" class="headerlink" title="the internet image"></a>the internet image</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![image](https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png)</span><br></pre></td></tr></table></figure>
-<p><img src="https://www.yinxiang.com/blog/wp-content/uploads/2018/07/%E5%94%AE%E7%A5%A8%E5%BE%AE%E4%BF%A1%E5%B0%81%E9%9D%A22.png" alt="image"></p>
-<h5 id="the-local-image"><a href="#the-local-image" class="headerlink" title="the local image"></a>the local image</h5><p>you can control the size of local images bu the belowing grammars.</p>
-<ul>
-<li>@w=300</li>
-<li>@h=150</li>
-<li>@w=200h=100</li>
-<li>@h=100w=200</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">0feea425bebb33aa45691b125b74d55b.png@w=300</span><br></pre></td></tr></table></figure>
-<p><img src="en-resource://database/936:1" alt="0feea425bebb33aa45691b125b74d55b.png">@w=300</p>
-<h4 id="12-Insert-form"><a href="#12-Insert-form" class="headerlink" title="12. Insert form"></a>12. Insert form</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">|A|B|C|D|</span><br><span class="line">|---|---|---|---|</span><br><span class="line">|1000|100|10|1|</span><br></pre></td></tr></table></figure>
-<table>
-<thead>
-<tr>
-<th>A</th>
-<th>B</th>
-<th>C</th>
-<th>D</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1000</td>
-<td>100</td>
-<td>10</td>
-<td>1</td>
-</tr>
-<tr>
-<td>#### 13. Insert chart</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Currently supports pie chart, line chart column chart and bar chart, you should only change the type as corresponding pie, line, column and bar.</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">```chart</span><br><span class="line">,budget,revenue,expenses,debt</span><br><span class="line">June,5000,8000,4000,6000</span><br><span class="line">July,3000,1000,4000,3000</span><br><span class="line">Aug,5000,7000,6000,3000</span><br><span class="line">Sep,7000,2000,3000,1000</span><br><span class="line">Oct,6000,5000,4000,2000</span><br><span class="line">Nov,4000,3000,5000,</span><br><span class="line"></span><br><span class="line"><span class="built_in">type</span>: bar</span><br><span class="line">title: Monthly income</span><br><span class="line">x.title: Month</span><br><span class="line">y.title: Amount</span><br><span class="line">y.suffix: $</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">,budget,revenue,expenses,debt</span><br><span class="line">June,5000,8000,4000,6000</span><br><span class="line">July,3000,1000,4000,3000</span><br><span class="line">Aug,5000,7000,6000,3000</span><br><span class="line">Sep,7000,2000,3000,1000</span><br><span class="line">Oct,6000,5000,4000,2000</span><br><span class="line">Nov,4000,3000,5000,</span><br><span class="line"></span><br><span class="line">type: column</span><br><span class="line">title: Monthly income</span><br><span class="line">x.title: Month</span><br><span class="line">y.title: Amount</span><br><span class="line">y.suffix: $</span><br></pre></td></tr></table></figure>
-<h4 id="14-Insert-inline-code-or-code-block"><a href="#14-Insert-inline-code-or-code-block" class="headerlink" title="14. Insert inline code or code block"></a>14. Insert inline code or code block</h4><p>the example is the highlight of Python.</p>
-<h5 id="Insert-inline-code"><a href="#Insert-inline-code" class="headerlink" title="Insert inline code"></a>Insert inline code</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Insert inline ``pyhon <span class="built_in">print</span>(<span class="string">"hello world!"</span>)</span><br><span class="line">``code</span><br></pre></td></tr></table></figure>
-<p>Insert inline <code>pyhon print(&quot;hello world!&quot;)</code>code</p>
-<h5 id="Insert-code-block"><a href="#Insert-code-block" class="headerlink" title="Insert code block"></a>Insert code block</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">```python</span><br><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line">import re</span><br><span class="line"></span><br><span class="line">line = <span class="string">"Cats are smarter than dogs"</span></span><br><span class="line">matchObj = re.match( r<span class="string">'(.*) are (.*?) .*'</span>, line, re.M|re.I)</span><br><span class="line"><span class="keyword">if</span> matchObj:</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"matchObj.group() : "</span>, matchObj.group()</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"matchObj.group(1) : "</span>, matchObj.group(1)</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"matchObj.group(2) : "</span>, matchObj.group(2)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span> <span class="string">"No match!!"</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">line = <span class="string">"Cats are smarter than dogs"</span></span><br><span class="line">matchObj = re.match( <span class="string">r'(.*) are (.*?) .*'</span>, line, re.M|re.I)</span><br><span class="line"><span class="keyword">if</span> matchObj:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group() : "</span>, matchObj.group()</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group(1) : "</span>, matchObj.group(<span class="number">1</span>)</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"matchObj.group(2) : "</span>, matchObj.group(<span class="number">2</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"No match!!"</span></span><br></pre></td></tr></table></figure>
-<h4 id="15-Insert-Math-formula"><a href="#15-Insert-Math-formula" class="headerlink" title="15. Insert Math formula"></a>15. Insert Math formula</h4><p>Markdown supports almost LaTeX math formulas</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">```math</span><br><span class="line">e^&#123;i\pi&#125;+1=1</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">e^&#123;i\pi&#125;+1&#x3D;0</span><br></pre></td></tr></table></figure>
-<p>for more math formulas you can refer to:<br><a href="https://khan.github.io/KaTeX/docs/supported.html" target="_blank" rel="noopener">https://khan.github.io/KaTeX/docs/supported.html</a></p>
-<h4 id="16-Insert-flow-chart"><a href="#16-Insert-flow-chart" class="headerlink" title="16. Insert flow chart"></a>16. Insert flow chart</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;mermaid</span><br><span class="line">graph TD</span><br><span class="line">A[module A] --&gt;|A1|B(module B)</span><br><span class="line">B --&gt;C&#123;condition C&#125;</span><br><span class="line">C --&gt;|condition C1|D[module D]</span><br><span class="line">C --&gt;|condition C2|E(module E)</span><br><span class="line">C --&gt;|condition C3|F&#123;condition G&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[module A] --&gt;|A1|B(module B)</span><br><span class="line">B --&gt;C&#123;condition C&#125;</span><br><span class="line">C --&gt;|condition C1|D[module D]</span><br><span class="line">C --&gt;|condition C2|E(module E)</span><br><span class="line">C --&gt;|condition C3|F&#123;condition G&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="17-Insert-sequence-diagram"><a href="#17-Insert-sequence-diagram" class="headerlink" title="17. Insert sequence diagram"></a>17. Insert sequence diagram</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">sequenceDiagram</span><br><span class="line">A-&gt;B: Connect <span class="built_in">test</span></span><br><span class="line">A-&gt;&gt;B: Have you recieved the message?</span><br><span class="line">B--&gt;&gt;A: Recieved message</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">A-&gt;B: Connect test</span><br><span class="line">A-&gt;&gt;B: Have you recieved message?</span><br><span class="line">B--&gt;&gt;A: Recieved message</span><br></pre></td></tr></table></figure>
-<h4 id="18-Insert-Gantt-chart"><a href="#18-Insert-Gantt-chart" class="headerlink" title="18. Insert Gantt chart"></a>18. Insert Gantt chart</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">gantt</span><br><span class="line">title Gantt Chart</span><br><span class="line">dateFormat YYY-MM-DD</span><br><span class="line">section ProjectA</span><br><span class="line">task1: a1, 2020-05-23, 4d</span><br><span class="line">task2: a2, after a1,3d</span><br><span class="line">section ProjectB</span><br><span class="line">task1: b1, 2020-05-24, 5d</span><br><span class="line">task2: b2, 10d</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">title Gantt Chart</span><br><span class="line">dateFormat YYY-MM-DD</span><br><span class="line">section ProjectA</span><br><span class="line">task1 :2020-05-23, 4d</span><br><span class="line">task2 :after task1,3d</span><br><span class="line">section ProjectB</span><br><span class="line">task3 :2020-05-24, 5d</span><br><span class="line">task4 :10d</span><br></pre></td></tr></table></figure>
-<h4 id="19-Set-catalog"><a href="#19-Set-catalog" class="headerlink" title="19. Set catalog"></a>19. Set catalog</h4><p>After setting, the catalog will be generated automatically according to the Heading.</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[TOC]</span><br></pre></td></tr></table></figure>
-<p>[TOC]</p>
-<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p>this flog is translated from <a href="https://list.yinxiang.com/markdown/eef42447-db3f-48ee-827b-1bb34c03eb83.php" target="_blank" rel="noopener">印象笔记 Markdown 入门指南</a>, you can click this link for details.</p>
-]]></content>
-      <categories>
-        <category>study</category>
-      </categories>
-      <tags>
-        <tag>hello world</tag>
-        <tag>markdown</tag>
       </tags>
   </entry>
 </search>
