@@ -33,9 +33,9 @@
       <category term="study" scheme="http://yoursite.com/categories/study/"/>
     
     
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
       <category term="hello world" scheme="http://yoursite.com/tags/hello-world/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
   </entry>
   
